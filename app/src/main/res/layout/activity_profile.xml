@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a8dcaa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/acc"
+            android:id="@+id/icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABC"
+            android:textSize="40dp"
+            android:id="@+id/ab"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách yêu thích"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài hát"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Album"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#F8070000"/>
+    </LinearLayout>
+
+</LinearLayout>
