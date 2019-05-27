@@ -1,7 +1,6 @@
 package com.example.appngenhac.Nhac;
 
 import android.content.Context;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,13 +10,14 @@ import android.widget.TextView;
 
 import com.example.appngenhac.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class NhacAdapter extends BaseAdapter {
     Context myContext;
     int myLayout;
     List<Nhac> arrayNhac;
-    public NhacAdapter(Context context, int layout, List<Nhac> nhacList){
+    public NhacAdapter(Context context, int layout, ArrayList<Nhac> nhacList){
        myContext = context;
        myLayout = layout;
        arrayNhac = nhacList;

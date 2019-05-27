@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.appngenhac.Nhac.Nhac;
+import com.example.appngenhac.Nhac.NhacActivity;
 import com.example.appngenhac.Nhac.NhacAdapter;
 import com.example.appngenhac.ProfileActivity;
 import com.example.appngenhac.R;
@@ -19,7 +20,7 @@ import com.example.appngenhac.R;
 import java.util.ArrayList;
 
 public class TrangChuActivity extends AppCompatActivity {
-    Button btnProfile;
+    Button btnProfile,btnHome;
     ListView lvnhac;
     ArrayList<Nhac> mangNhac;
 
@@ -34,6 +35,15 @@ public class TrangChuActivity extends AppCompatActivity {
                 Toast.makeText(TrangChuActivity.this, "Bạn đã mở Profile",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(TrangChuActivity.this, ProfileActivity.class);
                 startActivity(intent);
+            }
+        });
+        btnHome = (Button)findViewById((R.id.bt2)) ;
+        btnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(TrangChuActivity.this, "Bạn đã mở Trang Chủ",Toast.LENGTH_SHORT).show();
+                Intent inte = new Intent(TrangChuActivity.this, NhacActivity.class);
+                startActivity(inte);
             }
         });
 
